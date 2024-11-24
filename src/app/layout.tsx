@@ -26,8 +26,8 @@ const sofiaProSoft = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Paw Bungalow | Coming Soon",
-  description: "Useful tips and tricks for your furry friends.",
+  title: "Hundebetreuung Nord | Hamburg",
+  description: "Ihre Hundebetreuung in und um Hamburg",
 };
 
 export default function RootLayout({
