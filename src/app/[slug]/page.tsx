@@ -24,8 +24,8 @@ const Page = async ({ params }: { params: { slug: string } }) => {
   }
 
   return (
-    <main className="flex items-center justify-center min-h-screen">
-      <h1>{page.title}</h1>
+    <main className="flex items-center justify-center h-screen">
+      <div></div>
     </main>
   );
 };
