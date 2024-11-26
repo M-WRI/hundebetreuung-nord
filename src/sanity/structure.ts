@@ -8,4 +8,8 @@ export const structure: StructureResolver = (S) =>
       S.listItem()
         .title("Pages")
         .child(S.documentTypeList("page").title("Pages")),
+      S.divider(),
+      S.listItem()
+        .title("Navigation")
+        .child(S.documentTypeList("navigation").title("Navigation")),
     ]);

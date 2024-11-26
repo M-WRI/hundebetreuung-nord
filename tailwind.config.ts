@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          500: "#231F20",
+        },
       },
       fontFamily: {
         primary: ["var(--font-sofia-pro-soft)", "sans-serif"],

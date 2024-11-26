@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Head from "next/head";
+import { Navigation } from "@/components/navigation";
 
 const sofiaProSoft = localFont({
   src: [
@@ -53,7 +54,10 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <body className={`${sofiaProSoft.variable}`}>{children}</body>
+      <body className={`${sofiaProSoft.variable}`}>
+        <Navigation />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
